@@ -1,5 +1,4 @@
-# Project KAMUI V1
-VPN services installer. For Debian 11 or later. Created by Iriszz.
+# Project KA
 
 ## Installed Services
 |No.|Service|Port|Note|
@@ -41,31 +40,9 @@ VPN services installer. For Debian 11 or later. Created by Iriszz.
 - Vnstat
 - Neofetch
 
-## Requirements
-- Clean VPS, Debian 11 or newer with KVM, Xen or Hyper-V virtualization
-- Domain hosted on DigitalOcean or CloudFlare
-- Able to login as 'root'
-- [DigitalOcean API Token](https://cloud.digitalocean.com/settings/api/tokens)
-- [CLoudflare API Token](https://dash.cloudflare.com/profile/api-tokens) (Edit zone DNS)
 
-## Rebuild VPS (Optional)
-1. Download 'Debian Network Reinstall Script'.
-	```bash
-	wget -O debi.sh https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
-	```
-2. Give permission to execute.
-	```bash
-	chmod a+rx debi.sh
-	```
-3. Run script.
-	```bash
-	./debi.sh --version 12 --hostname hostname --username root --password 'password'
-	```
-	Change _hostname_ and _password_ accordingly.
-4. Reboot.
-	```bash
-	shutdown -r now
-	```
+
+
 
 ## Installation
 1. Update packages and reboot.
@@ -76,22 +53,18 @@ VPN services installer. For Debian 11 or later. Created by Iriszz.
 	```bash
 	wget -O install.sh "https://raw.githubusercontent.com/iriszz1/kamui/main/install.sh" && chmod +x install.sh && screen ./install.sh
 	```
-3. VPS will automatically reboot upon completion.
 
-## Current Progress
-1. ~~Install basic SSH & VPN services (Dropbear, Stunnel, BadVPN UDPgW, Squid Proxy, Python Proxy, Open HTTP Puncher (OHP), OpenVPN, WireGuard)~~
-2. ~~Install / Configure 'Other Services' part~~
-3. ~~Use DigitalOcean api token to manage domain~~
-4. ~~Install dnstt~~
-5. ~~Install Xray Core, 3 protocol (vless, vmess & trojan) at single port 443/80~~
-6. ~~Xray WebSocket support custom path~~
-7. ~~Menu script~~
-8. ~~Add UDP Custom by ePro Dev Team~~
-9. Version management
-10. Beautify script
+```bash
+	wget -O install.sh "https://raw.githubusercontent.com/Micheal88889/kam/main/install.sh" && chmod +x install.sh && screen ./install.sh
+	```
 
-## Known Bug
-You tell me. Kindly contact me via Telegram.
 
-## Contact
-Telegram: [@iriszz](https://t.me/iriszz)
+
+
+
+
+
+
+
+
+
