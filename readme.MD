@@ -54,17 +54,6 @@
 	wget -O install.sh "https://raw.githubusercontent.com/iriszz1/kamui/main/install.sh" && chmod +x install.sh && screen ./install.sh
 	```
 
-```bash
+	```bash
 	wget -O install.sh "https://raw.githubusercontent.com/Micheal88889/kam/main/install.sh" && chmod +x install.sh && screen ./install.sh
 	```
-
-
-
-
-
-
-
-
-
-
-
